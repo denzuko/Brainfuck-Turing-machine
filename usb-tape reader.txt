@@ -2,6 +2,7 @@ https://www.polyomino.org.uk/computer/ECMA-10/
 
 https://github.com/briandef/bf16
 
+https://www.youtube.com/watch?v=HjBhO9iqEc0
 https://www.youtube.com/watch?v=RzrdZ7ZpJ9U
 http://www.instructables.com/id/DIY-RAM-for-Your-Micro/
 https://learn.adafruit.com/experimenters-guide-for-metro/proj03-make%20it%20better
