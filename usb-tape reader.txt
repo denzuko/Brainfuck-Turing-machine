@@ -1,0 +1,51 @@
+https://www.polyomino.org.uk/computer/ECMA-10/
+
+https://github.com/briandef/bf16
+
+https://www.youtube.com/watch?v=RzrdZ7ZpJ9U
+http://www.instructables.com/id/DIY-RAM-for-Your-Micro/
+https://learn.adafruit.com/experimenters-guide-for-metro/proj03-make%20it%20better
+https://www.adafruit.com/product/3190
+https://www.adafruit.com/product/711
+
+need ir beam sensor "1.3mm" (8x)
+need prism / mirror to direct single 1.8mm beam to all eight sensors
+need one geared brushless dc motor (3.3v) amps tba
+need ftdi
+need system assembly + driver
+need tape and punch
+
+Design: 
+
+ latch switch { replace with rs232 software handshake xon/xoff }
+   | (via reset)
+   v
+  555 -> Power MOSFET+.01uF ceramic cap -> dc motor
+   |
+   --------------------------|
+                             v
+IR Sensor array input -> SN74ALS166N -> max232
+
+
+follows ecma-10 standards where able
+   - data set is binary (bf operators) or values (numeric)
+   - we use *brainfuck (ie pointer brainfuck)
+
+
+look into TTL brainfuck cpu, 555 timer dc motor
+
+
+
+End goal:
+
+    * plugable device that's programable by punch tape, accessories could be "wifi", "display", "music" (pezio-electric), "storage", and/or rs232 or gpio output
+    * Teach about Turing machines while enabling artests and makers to create
+    * Videos for instructions (artistic focused but with a little technical thrown in)
+    * kits for edu centers, hobists, artests, and makers
+
+wintergardin - tape
+
+
+
+Consept:
+   cards/tapes ran pass ir sensors are driven down to usb
